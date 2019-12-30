@@ -1,0 +1,29 @@
+.card.greeting {
+  /*width: $width;
+  max-width: $width;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto !important;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+.card.greeting img {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+.card.greeting .greeting-header {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.card.greeting .greeting-footer {
+  margin-top: 25px;
+}
+.card.greeting .greeting-footer .btn.btn-primary.btn-submit {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=Home.css.map */
