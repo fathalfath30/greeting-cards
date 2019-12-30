@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Milkshake";
+  src: url("fonts/milkshake/Milkshake.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/milkshake/Milkshake.eot?#iefix") format("embedded-opentype"), url("fonts/milkshake/Milkshake.woff") format("woff"), url("fonts/milkshake/Milkshake.woff2") format("woff2"), url("fonts/milkshake/Milkshake.svg#Milkshake") format("svg"), url("fonts/milkshake/Milkshake.ttf") format("truetype");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/montserrat/Montserrat.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/montserrat/Montserrat.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/Montserrat.woff") format("woff"), url("fonts/montserrat/Montserrat.woff2") format("woff2"), url("fonts/montserrat/Montserrat.svg#Montserrat") format("svg"), url("fonts/montserrat/Montserrat.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=font.css.map */
