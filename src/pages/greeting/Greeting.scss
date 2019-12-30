@@ -1,0 +1,47 @@
+//
+//  ______    _   _           _  __      _   _     ____   ___
+// |  ____|  | | | |         | |/ _|    | | | |   |___ \ / _ \
+// | |__ __ _| |_| |__   __ _| | |_ __ _| |_| |__   __) | | | |
+// |  __/ _` | __| '_ \ / _` | |  _/ _` | __| '_ \ |__ <| | | |
+// | | | (_| | |_| | | | (_| | | || (_| | |_| | | |___) | |_| |
+// |_|  \__,_|\__|_| |_|\__,_|_|_| \__,_|\__|_| |_|____/ \___/
+//
+// Written by Fathalfath30.
+// Email : fathalfath30@gmail.com
+// Follow me on:
+//  Github : https://github.com/fathalfath30
+//  Gitlab : https://gitlab.com/Fathalfath30
+//
+// Licensed under GNU General Public License v3.0
+// http://www.gnu.org/licenses/gpl-3.0.txt
+//
+//$width: 700px;
+.greeting-pages {
+  /* width: $width;
+   max-width: $width;*/
+
+
+  .header {
+    font-family: montserrat !important;
+    font-size: 26px;
+    font-weight: 300 !important;
+  }
+}
+
+.body-greeting {
+  background: url(../../asset/images/background_2.png) no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.selimut-biru {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #30aaac;
+}

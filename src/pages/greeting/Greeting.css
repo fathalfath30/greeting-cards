@@ -1,0 +1,29 @@
+.greeting-pages {
+  /* width: $width;
+   max-width: $width;*/
+}
+.greeting-pages .header {
+  font-family: montserrat !important;
+  font-size: 26px;
+  font-weight: 300 !important;
+}
+
+.body-greeting {
+  background: url(../../asset/images/background_2.png) no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.selimut-biru {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #30aaac;
+}
+
+/*# sourceMappingURL=Greeting.css.map */
