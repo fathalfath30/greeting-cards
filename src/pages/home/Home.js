@@ -24,7 +24,7 @@ import './Home.css';
 import objectToQueryParam from "../../helper/objectToQueryParam"
 
 export default class Home extends React.Component {
-  //qstring = null;
+  //Montserrat = null;
 
   constructor (p) {
     super (p);
@@ -47,7 +47,7 @@ export default class Home extends React.Component {
   }
 
   submitForm () {
-    document.location = '/greeting?' + objectToQueryParam ({
+    document.location = `${process.env.PUBLIC_URL}/greeting?` + objectToQueryParam ({
       't': this.state.type,
       'n': this.state.name
     });
@@ -59,7 +59,7 @@ export default class Home extends React.Component {
         <div className='card greeting col-lg-6'>
           <img src={logo} className="card-img-top" alt="Logo Budi Luhur" />
           <div className='card-body col-lg-12'>
-            <div className='col-lg-12 greeting-header'>
+            <div className='col-lg-12 greeting-header '>
               Buat Kartu Ucapan Anda Dalam Hitungan Menit
             </div>
             <div className='col-lg-12'>
@@ -67,7 +67,7 @@ export default class Home extends React.Component {
             </div>
             <div className='col-lg-12 greeting-content'>
               <div className='form-group'>
-                <input className='form-control' placeholder='Masukan ucapan'
+                <input className='form-control' placeholder='Masukan nama'
                        name='name' value={this.state.name} onChange={this.handleChange} />
               </div>
               <div className='form-group'>

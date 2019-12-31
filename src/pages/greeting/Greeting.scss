@@ -20,16 +20,44 @@
   /* width: $width;
    max-width: $width;*/
 
-
   .header {
     font-family: montserrat !important;
     font-size: 26px;
     font-weight: 300 !important;
   }
+
+  .name-card {
+    font-family: montserrat !important;
+    font-size: 50px;
+    word-break: break-word;
+    border-bottom: 2px solid #afafaf;
+  }
+
+  .mengucapkan {
+    font-family: montserrat !important;
+    font-size: 20px;
+    word-break: break-word;
+  }
+
+  .tahun-baru {
+    font-family: Milkshake !important;
+    font-size: 40px;
+  }
+}
+
+.container.container-mantap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+
+  margin-top: 0 !important;
 }
 
 .body-greeting {
-  background: url(../../asset/images/background_2.png) no-repeat center center fixed !important;
+  background: url(../../asset/images/background_2.jpg) no-repeat center center fixed !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
@@ -44,4 +72,92 @@
   right: 0;
   z-index: 99;
   background: #30aaac;
+}
+
+.selimut-putih {
+  position: fixed;
+  top: 0 !important;
+  margin-top: 0 !important;
+  /*left: 20%;
+  right: 20%;*/
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.5);
+  //background: #000;
+  height: 290px !important;
+}
+
+/*.animated {
+  background-image: url(/css/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top:95px;
+  margin-bottom:60px;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}*/
+
+.tahun2020 {
+  /*animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;*/
+  animation: tada 4s infinite;
+}
+
+.tahun-baru {
+  /*animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;*/
+  animation: tada 5s infinite;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  10%, 20% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  0% {
+    transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+.footer-mantap {
+    background: #000;
 }

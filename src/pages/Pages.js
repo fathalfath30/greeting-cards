@@ -37,9 +37,9 @@ export default class Pages extends React.Component {
   render () {
     return (
       <Router>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/greeting' component={Greeting} />
+        <Switch basename={'/ucapan'}>
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route path={`${process.env.PUBLIC_URL}/greeting`} component={Greeting} />
           <Route component={error404} />
         </Switch>
       </Router>
